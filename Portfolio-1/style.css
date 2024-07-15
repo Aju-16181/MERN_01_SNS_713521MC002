@@ -1,0 +1,57 @@
+*{
+   margin: 0%;
+    box-sizing: border-box;
+    font-family: Robot Slab,serif;
+}
+.con{
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+   
+    
+}
+.header{
+    background-color: rgba(2, 224, 150, 0.919);
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+    font-weight: 80px;
+}
+.nav-bar{
+    padding-left: 40%;
+}
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.nav-bar a:hover{
+    border-bottom: 2px solid;
+    color: rgb(244, 27, 27);
+}
+.head{
+    font-weight: bolder;
+}
+.para-1{
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.para{
+    padding-left: 30px;
+}
+.h{
+    color: aliceblue;
+}
+#span{
+    color: rgba(2, 224, 150, 0.919);
+    font-size: 50px;
+}
+.para-2{
+    color: aliceblue;
+    font-size: 30px;
+}
+#button{
+    margin-left: 40px;
+}

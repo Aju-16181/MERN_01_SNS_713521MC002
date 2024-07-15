@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{border: 1px solid ;}
+        .main{
+            gap: 5px;
+            padding: 10px;
+            display: grid;
+            grid-template-columns:1fr 2fr 3fr;
+            grid-template-rows: 1fr 2fr 3fr;
+            border: 3px solid black;}
+        .header{
+            grid-column: 1/4;
+        }
+        .sidebar{
+            grid-row: 2/4;
+        }
+        .body{
+            grid-column: 2/4;
+            grid-row: 2/4;
+        }
+        .footer{
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h2><pre>                     HEADING</pre></h2>
+        </div>
+        <div class="sidebar">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id atque, dolorum accusantium magni dolore aliquid a cumque? Aut, dicta vel.
+        </div>
+        <div class="body">
+            4515151Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium neque blanditiis maiores quo dolorem iure mollitia, sit vel officiis facilis.
+        </div>
+        <div class="footer">
+           <H2><PRE>                      FOOTER</PRE></H2>
+    </div>
+</body>
+</html>
